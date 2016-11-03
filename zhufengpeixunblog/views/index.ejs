@@ -1,0 +1,10 @@
+<%include ./include/header.ejs%>
+<ul id="app">
+	<li v-for="val in text" class="index-item">
+	  <h3 v-text="val.title"></h3>
+		<h4 v-text="val.createAt"></h4>
+		<p v-text="val.text"></p>
+	</li>
+</ul>
+<script src="/javascripts/index.js"></script>
+<%include include/footer.ejs%>

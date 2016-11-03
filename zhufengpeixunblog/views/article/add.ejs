@@ -1,0 +1,14 @@
+<%include ../include/header.ejs%>
+<section class="text-center clear" id="app">
+	<div class="text-title clear">
+		<span>标题</span>
+		<input type="text" maxlength="15" placeholder="标题最多输入15个字" v-model="title"/>
+	</div>
+	<div class="text-info clear">
+		<span>内容</span>
+		<textarea name="" id="" cols="30" rows="10"  maxlength="1000" v-model="textArea"></textarea>
+	</div>
+	<span class="text-add"  @click="add">发表文章</span>
+</section>
+<script src="/javascripts/add.js"></script>
+<%include ../include/footer.ejs%>

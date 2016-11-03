@@ -1,0 +1,126 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.user-reg{
+  border: 1px solid #eeeeee;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.user-reg div{
+  width: 100%;
+}
+
+.user-reg label{
+  width: 20%;
+  margin: 2% 2%;
+  text-align:justify;
+}
+
+.user-reg button{
+  width: 30%;
+  padding: 5px;
+  background-color: #ffebb7;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.user-reg input{
+  border: none;
+  border-bottom: 1px solid ;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0px 0px 0px 50px white inset;
+}
+
+.clear:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.text-center{
+  width: 80% ;
+  margin: 20px auto;
+  border: 1px solid #eeeeee;
+  border-radius: 20px;
+}
+
+.text-center span {
+  padding: 2px;
+  display: inline-block;
+  float: left;
+  margin: 10px 5px;
+}
+
+.text-center input{
+  display: inline-block;
+  float: left;
+}
+
+.text-center textarea{
+  display: inline-block;
+  float: left;
+}
+
+.text-center input{
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.text-title{
+  font-size: 24px;
+}
+
+.text-title input{
+  width: 90%;
+  padding: 2px;
+}
+
+
+.text-info{
+  font-size: 18px;
+}
+
+.text-info textarea{
+  border-radius: 20px;
+  width: 90%;
+  height: 300px;
+  overflow-y: scroll;
+  padding: 20px 0;
+}
+
+.text-add{
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  background-color: #00b3ee;
+  padding: 5px 10px!important;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: none!important;
+}
+
+.index-item {
+  width:100% ;
+}
+
+.index-item p{
+  width: 80%;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}

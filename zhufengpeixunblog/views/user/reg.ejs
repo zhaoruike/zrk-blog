@@ -1,0 +1,25 @@
+<%include ../include/header.ejs  %>
+<section class="container" id="container">
+	<div class="user-reg" id="">
+		<div>
+			<label for="username">用户姓名</label>
+			<input type="text" placeholder="请输入用户姓名" name="username" v-model="username"/>
+		</div>
+		<div>
+			<label for="password">密码</label>
+			<input type="password" placeholder="请输入用户密码" name="password" v-model="password"/>
+		</div>
+		<div>
+			<label for="repassword">确认密码</label>
+			<input type="password" placeholder="确认用户密码" name="repassword" v-model="repassword"/>
+		</div>
+		<div>
+			<label for="email">邮箱</label>
+			<input type="email" placeholder="请输入邮箱" name="email" v-model="email"/>
+		</div>
+		<button id="submit" @click="submit">提交</button>
+	</div>
+</section>
+<script src="/javascripts/md5.js"></script>
+<script src="/javascripts/reg.js"></script>
+<%include ../include/footer.ejs  %>
